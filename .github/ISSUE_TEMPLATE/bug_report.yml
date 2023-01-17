@@ -25,19 +25,13 @@ body:
         required: true
 - type: input
     attributes:
-        label: "Minecraft Version"
+        label: "LambdaCraft Version"
         placeholder: "Type Here"
     validations:
         required: true
 - type: input
     attributes:
-        label: "Forge Version" # Mod Loader
-        placeholder: "Type Here"
-    validations:
-        required: true
-- type: input
-    attributes:
-        label: "LambdaCraft Core Version" # Mod Name
+        label: "LambdaCraft Core Version"
         placeholder: "Type Here"
     validations:
         required: true
