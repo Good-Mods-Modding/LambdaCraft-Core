@@ -1,23 +1,28 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
-
-# idea
-out
+*.DS_Store
+*.hprof
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
-
-# gradle
-build
-.gradle
-
-# other
+*.jfr
+*.launch
+.classpath
+.gitattributes
+.gradle/
+.idea/
+.metadata
+.project
+.settings/
+.vscode/
+bin/
+build/
+classes/
+desktop.ini
 eclipse
-run
-/mcmodsrepo/
+hs_err_*.log
+logs/
+out/
+replay_*.log
+run/
+src/generated/resources/.cache
+src/test
+thumbs.db
