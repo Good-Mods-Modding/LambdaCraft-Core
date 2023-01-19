@@ -29,12 +29,6 @@ body:
     placeholder: "Type Here"
   validations:
     required: true
-- type: input
-  attributes:
-    label: "LambdaCraft Core Version"
-    placeholder: "Type Here"
-  validations:
-    required: true
 - type: dropdown
   attributes:
     label: "Singleplayer or Multiplayer"
