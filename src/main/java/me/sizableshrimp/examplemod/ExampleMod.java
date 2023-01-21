@@ -1,4 +1,4 @@
-package me.sizableshrimp.examplemod;
+package net.goodmodsmodding.core;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 @Mod(ExampleMod.MODID)
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ExampleMod {
-    public static final String MODID = "examplemod";
+    public static final String MODID = "core";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public ExampleMod() {}
