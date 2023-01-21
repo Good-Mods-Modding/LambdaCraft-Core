@@ -2,17 +2,17 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
         maven {
-            name 'MinecraftForge'
-            url 'https://maven.minecraftforge.net/'
+            name = "MinecraftForge"
+            url = "https://maven.minecraftforge.net"
         }
         maven {
-            name 'ParchmentMC'
-            url 'https://maven.parchmentmc.org'
+            name = "ParchmentMC"
+            url = "https://maven.parchmentmc.org"
         }
     }
     resolutionStrategy {
         eachPlugin {
-            if (requested.id.toString() == 'org.spongepowered.mixin') {
+            if (requested.id.toString() == "org.spongepowered.mixin") {
                 useModule("org.spongepowered:mixingradle:${requested.version}")
             }
         }

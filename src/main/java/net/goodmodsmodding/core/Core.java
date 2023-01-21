@@ -7,13 +7,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import org.slf4j.Logger;
 
-@Mod(ExampleMod.MODID)
+@Mod(Core.MODID)
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ExampleMod {
+public class Core {
     public static final String MODID = "core";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public ExampleMod() {}
+    public Core() {}
 
     @SubscribeEvent
     public static void onCommonSetup(FMLCommonSetupEvent event) {

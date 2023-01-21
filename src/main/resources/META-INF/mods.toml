@@ -6,8 +6,8 @@ license = "${license}"
 modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
-authors = "${mod_authors}"
-description = '''${mod_description}'''
+authors = "${authors}"
+description = '''${description}'''
 
 [[dependencies.${mod_id}]]
     modId = "forge"
