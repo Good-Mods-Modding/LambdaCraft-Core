@@ -6,7 +6,7 @@ plugins {
 }
 
 version = "${minecraft_version}-${mod_version}"
-group = net.goodmodsmodding.${mod_id}
+group = base_package
 archivesBaseName = mod_id
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
