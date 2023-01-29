@@ -27,6 +27,6 @@ description = '''${description}'''
     ordering = "NONE"
     side = "BOTH"
 
-[modproperties.${mod_id}]	
-    catalogueImageIcon="icon.png"	
-    configuredBackground="${mod_id}:textures/block/jotarium_block.png"	
+[modproperties.${mod_id}]
+    catalogueImageIcon="icon.png"
+    configuredBackground="${mod_id}:textures/block/amethyst_bronze_block.png"
