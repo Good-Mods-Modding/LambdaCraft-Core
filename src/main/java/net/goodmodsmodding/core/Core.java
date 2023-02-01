@@ -1,29 +1,38 @@
 package net.goodmodsmodding.core;
 
 import com.mojang.logging.LogUtils;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(Core.MODID)
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod(Core.MOD_ID)
 public class Core {
-    public static final String MODID = "core";
-    public static final Logger LOGGER = LogUtils.getLogger();
+    public static final String MOD_ID = "core";
+    private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Core() {}
+    public Core() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-    @SubscribeEvent
-    public static void onCommonSetup(FMLCommonSetupEvent event) {
-        // Do something when the setup is run on both client and server
-        LOGGER.info("HELLO from common setup!");
+        modEventBus.addListener(this::commonSetup);
+        MinecraftForge.EVENT_BUS.register(this);
+
+        modEventBus.addListener(this::addCreative);
     }
 
-    @SubscribeEvent
-    public static void onClientSetup(FMLClientSetupEvent event) {
-        // Do something when the setup is run on only the client
-        LOGGER.info("HELLO from client setup!");
+    private void commonSetup(final FMLCommonSetupEvent event) {}
+
+    private void addCreative(CreativeModeTabEvent.BuildContents event) {}
+
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {}
     }
 }

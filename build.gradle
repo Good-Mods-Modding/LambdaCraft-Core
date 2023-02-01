@@ -5,7 +5,7 @@ plugins {
     id "org.parchmentmc.librarian.forgegradle" version "1.+"
 }
 
-version = "${minecraft_version}-${mod_version}"
+version = "${mod_version}-${minecraft_version}"
 group = "net.goodmodsmodding.${mod_id}"
 archivesBaseName = mod_id
 

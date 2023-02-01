@@ -1,0 +1,52 @@
+Adamantium
+Diamond
+Enderium
+Aluminium
+Bismuth
+Chromium
+Cobalt
+Copper
+Enderium
+Gold
+Infernium
+Jotarium
+Iron
+Lead
+Jotarium
+Mythril
+Nickel
+Ogramium
+Osmium
+Platinum
+Silver
+Tin
+Titanium
+Tungsten
+Uranium
+Wrenium
+Zinc
+
+Alumite - 3:1 Aluminum and Arcane Crystal
+Amethyst Bronze - 1:1 Copper and Amethyst
+Arcane Crystal - 3:1 Aetheron and Reatite
+Arcane Gold - 2:1:1 Gold, Arcane Crystal, and Brass
+Beskar - 2:1:1 Durasteel, Bisviluminum, and Mythril
+Bischrome - 1:1 Bismuth and Chromium
+Bisviluminum - 2:1:1 Vibranium, Aluminium, and Bismuth
+Blue Steel - 1:1 Iron and Prismarine
+Brass - 3:1 Copper and Zinc
+Briem - 3:1 Copper and Aluminum
+Bronze - 3:1 Copper and Tin
+Brut - 3:1 Copper and Iron
+Orange Steel - 1:1:1:1 Brass, Briem, Bronze, and Brut
+Electrum - 1:1 Gold and Silver
+Enriched Silver - 1:1 Silver and Quartz
+Firey Gold - 3:1 Gold and Adamantium
+Invar - 3:1 Iron and Nickel
+Steel - 3:1 Iron and Coal
+Platinum Alloy - 2:1:1 Diamond, Gold, and Platinum
+Nahuatl - 3:1 Platinum and Obsidian
+Pecuniarite - 1:1:1:1 Diamond, Emerald, Gold, and Ruby
+Prismeraude - 1:1 Emerald and Prismarine
+Reatite - 1:1 Glowstone and Redstone
+Quartzidian - 1:1 Quartz and Obsidian
