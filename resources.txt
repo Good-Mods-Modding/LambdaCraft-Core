@@ -1,3 +1,7 @@
+Aetheron
+Glowstone (Lumium)
+Redstone (Rubrumium)
+
 Adamantium
 Diamond
 Enderium
@@ -6,8 +10,8 @@ Bismuth
 Chromium
 Cobalt
 Copper
-Enderium
 Gold
+Gregorium
 Infernium
 Jotarium
 Iron
@@ -15,10 +19,12 @@ Lead
 Jotarium
 Mythril
 Nickel
+Nikolite (Enderium)
 Ogramium
 Osmium
 Platinum
 Silver
+Techneticiesium
 Tin
 Titanium
 Tungsten
@@ -28,7 +34,7 @@ Zinc
 
 Alumite - 3:1 Aluminum and Arcane Crystal
 Amethyst Bronze - 1:1 Copper and Amethyst
-Arcane Crystal - 3:1 Aetheron and Reatite
+Arcane Crystal - 3:1 Aetheron and Reatum
 Arcane Gold - 2:1:1 Gold, Arcane Crystal, and Brass
 Beskar - 2:1:1 Durasteel, Bisviluminum, and Mythril
 Bischrome - 1:1 Bismuth and Chromium
@@ -38,15 +44,18 @@ Brass - 3:1 Copper and Zinc
 Briem - 3:1 Copper and Aluminum
 Bronze - 3:1 Copper and Tin
 Brut - 3:1 Copper and Iron
-Orange Steel - 1:1:1:1 Brass, Briem, Bronze, and Brut
 Electrum - 1:1 Gold and Silver
 Enriched Silver - 1:1 Silver and Quartz
 Firey Gold - 3:1 Gold and Adamantium
+Gregium - 1:1 Gregorium and Techneticiesium
 Invar - 3:1 Iron and Nickel
-Steel - 3:1 Iron and Coal
-Platinum Alloy - 2:1:1 Diamond, Gold, and Platinum
 Nahuatl - 3:1 Platinum and Obsidian
+Orange Steel - 1:1:1:1 Brass, Briem, Bronze, and Brut
+Platinum Alloy - 2:1:1 Diamond, Gold, and Platinum
 Pecuniarite - 1:1:1:1 Diamond, Emerald, Gold, and Ruby
 Prismeraude - 1:1 Emerald and Prismarine
-Reatite - 1:1 Glowstone and Redstone
 Quartzidian - 1:1 Quartz and Obsidian
+Reatite - 1:1 Glowstone and Redstone
+Reatum - 2:1 Reatite and Iron
+Steel - 3:1 Iron and Coal
+Vanillum - 1:1:1:1 Diamond, Emerald, Gold, and Iron
