@@ -1,7 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "tutorialmod:black_opal_ore",
-    "tutorialmod:deepslate_black_opal_ore"
-  ]
+    "replace": false,
+    "values": [
+        "core:arcane_crystal_block",
+        "core:arcane_crystal_ore",
+        "core:mana_diamond_block"
+    ]
 }

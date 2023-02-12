@@ -1,9 +1,9 @@
 {
-    "type": "minecraft:blasting",
+    "type": "minecraft:smelting",
     "category": "misc",
     "cookingtime": 100,
     "experience": 1.0,
-    "group": "iron_ingot",
+    "group": "adamantium_ingot",
     "ingredient": {
         "item": "core:adamantium_ore"
     },

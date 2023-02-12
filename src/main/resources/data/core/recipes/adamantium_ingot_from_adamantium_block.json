@@ -1,13 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "tutorialmod:black_opal_block"
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "adamantium_ingot",
+    "ingredients": [
+        {
+            "item": "core:adamantium_block"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "core:adamantium_ingot"
     }
-  ],
-  "result": {
-    "count": 9,
-    "item": "tutorialmod:black_opal"
-  }
 }

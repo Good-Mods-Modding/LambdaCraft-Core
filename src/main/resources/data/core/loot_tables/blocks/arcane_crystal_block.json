@@ -11,7 +11,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "core:adamantium_block"
+                    "name": "core:arcane_crystal_block"
                 }
             ],
             "rolls": 1.0

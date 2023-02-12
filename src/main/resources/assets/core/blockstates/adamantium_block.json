@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "core:block/arcane_crystal_block"}
+        "": {"model": "core:block/adamantium_block"}
     }
 }

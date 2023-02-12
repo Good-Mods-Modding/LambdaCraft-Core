@@ -39,23 +39,32 @@ public class Core {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ARCANE_CRYSTAL);
             event.accept(ModItems.MANA_DIAMOND);
+            event.accept(ModItems.RAW_ADAMANTIUM);
         }
 
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ADAMANTIUM_BLOCK);
             event.accept(ModBlocks.ARCANE_CRYSTAL_BLOCK);
             event.accept(ModBlocks.MANA_DIAMOND_BLOCK);
         }
 
         if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.ADAMANTIUM_ORE);
             event.accept(ModBlocks.ARCANE_CRYSTAL_ORE);
+            event.accept(ModBlocks.RAW_ADAMANTIUM_BLOCK);
         }
 
         if(event.getTab() == ModCreativeModeTabs.TUTORIAL_TAB) {
+            event.accept(ModItems.ADAMANTIUM_INGOT);
             event.accept(ModItems.ARCANE_CRYSTAL);
             event.accept(ModItems.MANA_DIAMOND);
+            event.accept(ModItems.RAW_ADAMANTIUM);
+            event.accept(ModBlocks.ADAMANTIUM_ORE);
+            event.accept(ModBlocks.ADAMANTIUM_BLOCK);
             event.accept(ModBlocks.ARCANE_CRYSTAL_BLOCK);
-            event.accept(ModBlocks.MANA_DIAMOND_BLOCK);
             event.accept(ModBlocks.ARCANE_CRYSTAL_ORE);
+            event.accept(ModBlocks.MANA_DIAMOND_BLOCK);
+            event.accept(ModBlocks.RAW_ADAMANTIUM_BLOCK);
         }
     }
 

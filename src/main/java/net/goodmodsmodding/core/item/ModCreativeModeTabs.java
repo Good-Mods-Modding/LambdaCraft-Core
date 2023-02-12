@@ -15,7 +15,8 @@ public class ModCreativeModeTabs {
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
-        TUTORIAL_TAB = event.registerCreativeModeTab(new ResourceLocation(Core.MOD_ID, "tutorial_tab"), builder -> builder.icon(() -> new ItemStack(ModItems.ARCANE_CRYSTAL.get())) // TODO: Change icon to Adamantium Ingot
+        TUTORIAL_TAB = event.registerCreativeModeTab(new ResourceLocation(Core.MOD_ID, "tutorial_tab"), builder -> builder
+            .icon(() -> new ItemStack(ModItems.ADAMANTIUM_INGOT.get()))
             .title(Component.translatable("creativemodetab.tutorial_tab")));
     }
 }

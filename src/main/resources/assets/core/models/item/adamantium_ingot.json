@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "core:item/arcane_crystal"
+        "layer0": "core:item/adamantium_ingot"
     }
 }

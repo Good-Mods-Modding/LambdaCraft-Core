@@ -1,6 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "tutorialmod:netherrack_black_opal_ore"
-  ]
+    "replace": false,
+    "values": [
+        "core:raw_adamantium_block",
+        "core:adamantium_block",
+        "core:adamantium_ore"
+    ]
 }

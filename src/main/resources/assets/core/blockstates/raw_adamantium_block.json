@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "core:block/adamantium_block"}
+        "": {"model": "core:block/raw_adamantium_block"}
     }
 }
