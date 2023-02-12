@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": {"model": "core:block/mana_diamond_block"}
+    }
+}

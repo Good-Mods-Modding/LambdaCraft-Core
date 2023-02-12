@@ -1,6 +1,10 @@
 package net.goodmodsmodding.core;
 
 import com.mojang.logging.LogUtils;
+import net.goodmodsmodding.core.block.ModBlocks;
+import net.goodmodsmodding.core.item.ModCreativeModeTabs;
+import net.goodmodsmodding.core.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -20,6 +24,9 @@ public class Core {
     public Core() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -28,7 +35,29 @@ public class Core {
 
     private void commonSetup(final FMLCommonSetupEvent event) {}
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {}
+    private void addCreative(CreativeModeTabEvent.BuildContents event) {
+        if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ARCANE_CRYSTAL);
+            event.accept(ModItems.MANA_DIAMOND);
+        }
+
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ARCANE_CRYSTAL_BLOCK);
+            event.accept(ModBlocks.MANA_DIAMOND_BLOCK);
+        }
+
+        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.ARCANE_CRYSTAL_ORE);
+        }
+
+        if(event.getTab() == ModCreativeModeTabs.TUTORIAL_TAB) {
+            event.accept(ModItems.ARCANE_CRYSTAL);
+            event.accept(ModItems.MANA_DIAMOND);
+            event.accept(ModBlocks.ARCANE_CRYSTAL_BLOCK);
+            event.accept(ModBlocks.MANA_DIAMOND_BLOCK);
+            event.accept(ModBlocks.ARCANE_CRYSTAL_ORE);
+        }
+    }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {

@@ -21,6 +21,7 @@ eclipse
 hs_err_*.log
 logs/
 out/
+personal/
 replay_*.log
 run/
 src/generated/resources/.cache

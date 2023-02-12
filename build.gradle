@@ -96,10 +96,27 @@ sourceSets.main.resources {
     srcDir "src/generated/resources"
 }
 
-repositories {}
+repositories {
+    maven {
+        name = "Progwml6 Maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+    maven {
+        name = "Curse Maven"
+        url = "https://cursemaven.com"
+    }
+}
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    implementation fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+    implementation fg.deobf("curse.maven:configured-457570:4166861")
+    implementation fg.deobf("curse.maven:catalogue-459701:4171025")
 }
 
 def resourceTargets = ["META-INF/mods.toml", "pack.mcmeta"]
